@@ -1,0 +1,15 @@
+Vorrei creare una semplice applicazione web per calcolare il BMI (l'indice di massa corporea) usando HTML, CSS e PHP. Vorrei che fosse divisa in due pagine: una con il modulo per inserire i dati e una che mostra il risultato.
+
+Nella prima pagina ci deve essere un form molto pulito e moderno, con un box bianco al centro su uno sfondo grigio chiaro. L'utente deve poter inserire il proprio nome, il peso in kg e l'altezza in centimetri. Il bottone per calcolare deve essere nero e con gli angoli arrotondati.
+
+Quando l'utente clicca sul bottone, i dati devono andare a una pagina PHP che fa il calcolo (dividendo il peso per l'altezza in metri al quadrato) e mostra il risultato in una "schedina" o card colorata. 
+
+La cosa importante è che il colore della card deve cambiare in base al risultato:
+- Azzurro se è sottopeso (meno di 18.5)
+- Verde se è normopeso (tra 18.5 e 24.9)
+- Arancione se è sovrappeso (tra 25 e 29.9)
+- Rosso se è in obesità (da 30 in su)
+
+Dentro la card voglio vedere il nome della persona, il riepilogo di peso e altezza, il valore del BMI scritto molto grande e la categoria in stampatello maiuscolo. Sotto la card mettici un link per tornare indietro e fare un nuovo calcolo.
+
+Scrivi tutto il codice in modo semplice, usando il PHP classico senza framework o librerie esterne.
